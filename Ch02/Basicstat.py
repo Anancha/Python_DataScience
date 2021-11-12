@@ -1,4 +1,4 @@
-import numpy as np
+import numpy as np  # By Anucha
 
 data = [20,30,31,35,40,42]
 
