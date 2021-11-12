@@ -1,0 +1,14 @@
+import pyodbc
+
+strConn = 'driver=ODBC Driver 17 for SQL Server;server=.\SQLExpress;database=thaivbBiz;trusted_connection=yes;charset=UTF8'
+sql = 'SELECT ProductID, ProductName, ProductCost, ProductPrice FROM Product' 
+
+print('รหัสสินค้า' + '\tชื่อสินค้า' + '\t\tต้นทุน' + '\t\tราคาขาย')
+print('-----------------------------------------------------------')
+with pyodbc.connect(strConn) as Conn:
+    data = Conn.execute(sql)
+    for item in data:
+        print(str(item[0]).ljust(10) + '\t' + str(item[1]).ljust(20) 
+              + str(item[2]) + '\t' + str(item[3]))
+
+print(type(data))

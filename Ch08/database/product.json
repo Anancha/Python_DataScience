@@ -1,0 +1,36 @@
+[{
+  "_id": {
+    "$oid": "5ef45d6cfd39dbf8324269bf"
+  },
+  "ProductID": "1001",
+  "ProductName": "การใช้งานภาษาไพธอน",
+  "ProductPrice": 299
+},{
+  "_id": {
+    "$oid": "5ef461b7fd39dbf8324269c1"
+  },
+  "ProductID": "1002",
+  "ProductName": "การใช้งานภาษา C#",
+  "ProductPrice": 250
+},{
+  "_id": {
+    "$oid": "5ef461e9fd39dbf8324269c2"
+  },
+  "ProductID": "1003",
+  "ProductName": "การพัฒนาเว็บแอพด้วย ASP.NET Core บน .NET 5",
+  "ProductPrice": 315
+},{
+  "_id": {
+    "$oid": "5ef46215fd39dbf8324269c3"
+  },
+  "ProductID": "1004",
+  "ProductName": "การใช้งานฐานข้อมูล MongoDB",
+  "ProductPrice": 275
+},{
+  "_id": {
+    "$oid": "5ef462c3fd39dbf8324269c4"
+  },
+  "ProductID": "1005",
+  "ProductName": "การใช้งาน Angular",
+  "ProductPrice": 279
+}]
